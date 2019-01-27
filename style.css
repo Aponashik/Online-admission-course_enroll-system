@@ -1,0 +1,98 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	color:black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	text-decoration: none;
+}
+.navBAR{margin:0 auto; width:100%;}
+.navBAR ul {padding:0;list-style:none;line-height:17px;} /*this will make all links vertically */
+.navBAR ul li {float:left; margin:1px; position:relative; background-color:black;border-radius:6px; list-style-type:none;}
+.navBAR ul li a {text-decoration: none;color: white;padding:5px;display: block;width:156px;text-align:center;}
+.navBAR ul li ul{position:absolute; visibility:hidden;}
+.navBAR ul li:hover ul{visibility:visible;}
+.navBAR ul li a:hover{color:black;}
+.navBAR ul li:hover{background-color:#e0f404;}
+
+
+ul, ol, dl {
+	margin:0px;
+}
+
+
+.header {background-color:#000;float:left;height:130px;width:500px;position: relative;clip: rect(auto,auto,auto,auto);left:0px;}/*div with logo*/
+.header1{background-color:#000;float:left;height:130px;width:848px;position: relative;clip: rect(auto,auto,auto,auto);left:0px;}/*div with srch bx*/
+.search{margin-top:75px;float:right;margin-right:right;}
+    input[type=text]{padding:6px;border:none;font-size:13px;}
+	.bttn{padding:6px;font-size:10px;color: white;background:red;border:none;border-radius:2px;}
+
+
+.welcome p {
+	font-size: 35px;
+	position: absolute;
+	top: 475px;
+	left: 670px;
+	transform: translate(-60%,-60%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ .welcome p {list-style:none;color:yellow;font-family:arial;letter-spacing:5px;}
+ .uv p{font-size: 45px;
+	position: absolute;
+	top: 540px;
+	left: 680px;
+	transform: translate(-60%,-60%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+}
+ .uv p{list-style:none;color:white;font-family:arial;letter-spacing:7px;}
+.about {
+	font-size: 12px;
+	color:#F00;
+	background-color:black;
+	float: left;
+	height: 390px;
+	width: 355px;
+	position: relative;
+	clip: rect(auto,auto,auto,auto);
+	left:8px;
+}
+.vc {
+	font-size: 12px;
+	color: #F00;
+	background-color:BLACK;
+	float: left;
+	height: 390px;
+	width:475px;
+	position: relative;
+	clip: rect(auto,auto,auto,auto);
+	left:24px;
+}
+.provc {
+	font-size: 12px;
+	color: #F00;
+	background-color:BLACK;
+	float: left;
+	height: 390px;
+	width:475px;
+	position: relative;
+	clip: rect(auto,auto,auto,auto);
+	left:40px;
+}
+.msg{
+	font-size: 15px;
+	background-color:yellow;
+	position:center;
+	}
+.footer {
+    padding: 0.5em;
+    color: BLACK;
+    background-color:#12ffff;
+    clear: left;
+    text-align: center;}
